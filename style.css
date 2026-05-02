@@ -1,5 +1,5 @@
-    /* Style copied from a mix of https://bearblog.dev/ and my own style colors at https://dpanphoto.com/ */ 
-        :root {
+/* Style copied from a mix of https://bearblog.dev/ and my own style colors at https://dpanphoto.com/ */ 
+:root {
     --width: 800px;
     --font-main: Verdana, sans-serif;
     --font-secondary: Verdana, sans-serif;
