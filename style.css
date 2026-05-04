@@ -23,7 +23,13 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    font-size: 1.5em;
+    font-family: var(--font-main);
+    color: var(--heading-color);
+}
+
+h2, h3, h4, h5, h6 {
     font-family: var(--font-main);
     color: var(--heading-color);
 }
@@ -53,12 +59,4 @@ hr {
 
 img {
     max-width: 100%;
-}
-
-.title:hover {
-    text-decoration: none;
-}
-
-.title h1 {
-    font-size: 1.5em;
 }
