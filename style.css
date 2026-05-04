@@ -2,20 +2,15 @@
 :root {
     --width: 800px;
     --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
     --font-scale: 1em;
     --background-color: #fff8dc;
     --heading-color: #000000;
     --text-color: #000000;
     --link-color: #534439;
-    --visited-color:  #534439;
-    --code-background-color: #f2f2f2;
-    --code-color: #222;
-    --blockquote-color: #222;
 }
 
 body {
-    font-family: var(--font-secondary);
+    font-family: var(--font-main);
     font-size: var(--font-scale);
     margin: auto;
     padding: 20px;
@@ -43,19 +38,6 @@ a:hover {
     opacity: 0.8; 
 }
 
-nav a {
-    margin-right: 8px;
-}
-
-strong, b {
-    color: var(--heading-color);
-}
-
-button {
-    margin: 0;
-    cursor: pointer;
-}
-
 main {
     line-height: 1.6;
 }
@@ -73,26 +55,6 @@ img {
     max-width: 100%;
 }
 
-code {
-    font-family: monospace;
-    padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 3px;
-}
-
-blockquote {
-    border-left: 1px solid #999;
-    color: var(--code-color);
-    padding-left: 20px;
-    font-style: italic;
-}
-
-footer {
-    padding: 25px 0;
-    text-align: center;
-}
-
 .title:hover {
     text-decoration: none;
 }
@@ -100,13 +62,3 @@ footer {
 .title h1 {
     font-size: 1.5em;
 }
-
-.highlight, .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow-x: auto;
-}  
